@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96154AAF201AA30C00EA0194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96154AAE201AA30C00EA0194 /* AppDelegate.swift */; };
+		96154AB1201AA30C00EA0194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96154AB0201AA30C00EA0194 /* ViewController.swift */; };
+		96154AB4201AA30C00EA0194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96154AB2201AA30C00EA0194 /* Main.storyboard */; };
+		96154AB6201AA30C00EA0194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96154AB5201AA30C00EA0194 /* Assets.xcassets */; };
+		96154AB9201AA30C00EA0194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96154AB7201AA30C00EA0194 /* LaunchScreen.storyboard */; };
+		96154AC4201AA30C00EA0194 /* Open_LiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96154AC3201AA30C00EA0194 /* Open_LiaTests.swift */; };
+		96154ACF201AA30C00EA0194 /* Open_LiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96154ACE201AA30C00EA0194 /* Open_LiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96154AC0201AA30C00EA0194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96154AA3201AA30B00EA0194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96154AAA201AA30C00EA0194;
+			remoteInfo = "Open Lia";
+		};
+		96154ACB201AA30C00EA0194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96154AA3201AA30B00EA0194 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96154AAA201AA30C00EA0194;
+			remoteInfo = "Open Lia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96154AAB201AA30C00EA0194 /* Open Lia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Lia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96154AAE201AA30C00EA0194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96154AB0201AA30C00EA0194 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96154AB3201AA30C00EA0194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96154AB5201AA30C00EA0194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96154AB8201AA30C00EA0194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96154ABA201AA30C00EA0194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96154ABF201AA30C00EA0194 /* Open LiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open LiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96154AC3201AA30C00EA0194 /* Open_LiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_LiaTests.swift; sourceTree = "<group>"; };
+		96154AC5201AA30C00EA0194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96154ACA201AA30C00EA0194 /* Open LiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Open LiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96154ACE201AA30C00EA0194 /* Open_LiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Open_LiaUITests.swift; sourceTree = "<group>"; };
+		96154AD0201AA30C00EA0194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96154AA8201AA30C00EA0194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154ABC201AA30C00EA0194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154AC7201AA30C00EA0194 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96154AA2201AA30B00EA0194 = {
+			isa = PBXGroup;
+			children = (
+				96154AAD201AA30C00EA0194 /* Open Lia */,
+				96154AC2201AA30C00EA0194 /* Open LiaTests */,
+				96154ACD201AA30C00EA0194 /* Open LiaUITests */,
+				96154AAC201AA30C00EA0194 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96154AAC201AA30C00EA0194 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96154AAB201AA30C00EA0194 /* Open Lia.app */,
+				96154ABF201AA30C00EA0194 /* Open LiaTests.xctest */,
+				96154ACA201AA30C00EA0194 /* Open LiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96154AAD201AA30C00EA0194 /* Open Lia */ = {
+			isa = PBXGroup;
+			children = (
+				96154AAE201AA30C00EA0194 /* AppDelegate.swift */,
+				96154AB0201AA30C00EA0194 /* ViewController.swift */,
+				96154AB2201AA30C00EA0194 /* Main.storyboard */,
+				96154AB5201AA30C00EA0194 /* Assets.xcassets */,
+				96154AB7201AA30C00EA0194 /* LaunchScreen.storyboard */,
+				96154ABA201AA30C00EA0194 /* Info.plist */,
+			);
+			path = "Open Lia";
+			sourceTree = "<group>";
+		};
+		96154AC2201AA30C00EA0194 /* Open LiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				96154AC3201AA30C00EA0194 /* Open_LiaTests.swift */,
+				96154AC5201AA30C00EA0194 /* Info.plist */,
+			);
+			path = "Open LiaTests";
+			sourceTree = "<group>";
+		};
+		96154ACD201AA30C00EA0194 /* Open LiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96154ACE201AA30C00EA0194 /* Open_LiaUITests.swift */,
+				96154AD0201AA30C00EA0194 /* Info.plist */,
+			);
+			path = "Open LiaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96154AAA201AA30C00EA0194 /* Open Lia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96154AD3201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open Lia" */;
+			buildPhases = (
+				96154AA7201AA30C00EA0194 /* Sources */,
+				96154AA8201AA30C00EA0194 /* Frameworks */,
+				96154AA9201AA30C00EA0194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Open Lia";
+			productName = "Open Lia";
+			productReference = 96154AAB201AA30C00EA0194 /* Open Lia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96154ABE201AA30C00EA0194 /* Open LiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96154AD6201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open LiaTests" */;
+			buildPhases = (
+				96154ABB201AA30C00EA0194 /* Sources */,
+				96154ABC201AA30C00EA0194 /* Frameworks */,
+				96154ABD201AA30C00EA0194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96154AC1201AA30C00EA0194 /* PBXTargetDependency */,
+			);
+			name = "Open LiaTests";
+			productName = "Open LiaTests";
+			productReference = 96154ABF201AA30C00EA0194 /* Open LiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96154AC9201AA30C00EA0194 /* Open LiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96154AD9201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open LiaUITests" */;
+			buildPhases = (
+				96154AC6201AA30C00EA0194 /* Sources */,
+				96154AC7201AA30C00EA0194 /* Frameworks */,
+				96154AC8201AA30C00EA0194 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96154ACC201AA30C00EA0194 /* PBXTargetDependency */,
+			);
+			name = "Open LiaUITests";
+			productName = "Open LiaUITests";
+			productReference = 96154ACA201AA30C00EA0194 /* Open LiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96154AA3201AA30B00EA0194 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = COE;
+				TargetAttributes = {
+					96154AAA201AA30C00EA0194 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					96154ABE201AA30C00EA0194 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96154AAA201AA30C00EA0194;
+					};
+					96154AC9201AA30C00EA0194 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96154AAA201AA30C00EA0194;
+					};
+				};
+			};
+			buildConfigurationList = 96154AA6201AA30C00EA0194 /* Build configuration list for PBXProject "Open Lia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96154AA2201AA30B00EA0194;
+			productRefGroup = 96154AAC201AA30C00EA0194 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96154AAA201AA30C00EA0194 /* Open Lia */,
+				96154ABE201AA30C00EA0194 /* Open LiaTests */,
+				96154AC9201AA30C00EA0194 /* Open LiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96154AA9201AA30C00EA0194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96154AB9201AA30C00EA0194 /* LaunchScreen.storyboard in Resources */,
+				96154AB6201AA30C00EA0194 /* Assets.xcassets in Resources */,
+				96154AB4201AA30C00EA0194 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154ABD201AA30C00EA0194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154AC8201AA30C00EA0194 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96154AA7201AA30C00EA0194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96154AB1201AA30C00EA0194 /* ViewController.swift in Sources */,
+				96154AAF201AA30C00EA0194 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154ABB201AA30C00EA0194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96154AC4201AA30C00EA0194 /* Open_LiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96154AC6201AA30C00EA0194 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96154ACF201AA30C00EA0194 /* Open_LiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96154AC1201AA30C00EA0194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96154AAA201AA30C00EA0194 /* Open Lia */;
+			targetProxy = 96154AC0201AA30C00EA0194 /* PBXContainerItemProxy */;
+		};
+		96154ACC201AA30C00EA0194 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96154AAA201AA30C00EA0194 /* Open Lia */;
+			targetProxy = 96154ACB201AA30C00EA0194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96154AB2201AA30C00EA0194 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96154AB3201AA30C00EA0194 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96154AB7201AA30C00EA0194 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96154AB8201AA30C00EA0194 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96154AD1201AA30C00EA0194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96154AD2201AA30C00EA0194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96154AD4201AA30C00EA0194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Open Lia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-Lia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96154AD5201AA30C00EA0194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Open Lia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-Lia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96154AD7201AA30C00EA0194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Open LiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-LiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Lia.app/Open Lia";
+			};
+			name = Debug;
+		};
+		96154AD8201AA30C00EA0194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Open LiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-LiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Open Lia.app/Open Lia";
+			};
+			name = Release;
+		};
+		96154ADA201AA30C00EA0194 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Open LiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-LiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Open Lia";
+			};
+			name = Debug;
+		};
+		96154ADB201AA30C00EA0194 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Open LiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coe.Open-LiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Open Lia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96154AA6201AA30C00EA0194 /* Build configuration list for PBXProject "Open Lia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96154AD1201AA30C00EA0194 /* Debug */,
+				96154AD2201AA30C00EA0194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96154AD3201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open Lia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96154AD4201AA30C00EA0194 /* Debug */,
+				96154AD5201AA30C00EA0194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96154AD6201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open LiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96154AD7201AA30C00EA0194 /* Debug */,
+				96154AD8201AA30C00EA0194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96154AD9201AA30C00EA0194 /* Build configuration list for PBXNativeTarget "Open LiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96154ADA201AA30C00EA0194 /* Debug */,
+				96154ADB201AA30C00EA0194 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96154AA3201AA30B00EA0194 /* Project object */;
+}
